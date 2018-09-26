@@ -5,7 +5,6 @@ Created on 26/09/2018
 '''
 
 # XXX: http://codeforces.com/contest/1040/problem/B
-
 if __name__ == '__main__':
     n, k = [int(x) for x in input().strip().split(" ")]
     tam_seccion = min((k << 1) + 1, n)
